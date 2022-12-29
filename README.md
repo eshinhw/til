@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
-- [Blockchain](Blockchain/Blockchain.md)
+- [Blockchain Basics](Blockchain/Blockchain.md)
+- [TypeScript](TypeScript/TypeScript.md)
 
 
