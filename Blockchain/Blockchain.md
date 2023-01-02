@@ -33,3 +33,27 @@ Smart contracts are immutable and distributed.
 - **Trust**: Creates a permanent, secure and unalterable record of who owns what. Using advanced cryptography, "Information integrity" is preserved. We can have digital fingerprints of every single transaction that happens on the network. 
 - **Reliability**: Decentralized network structure ensures that there is no single point of failure which could bring the entire system down.
 
+Prove authenticity and guarantee integrity
+
+Blockchain provide a single source of truth that is permanent, verifable and unchangeable. 
+
+## Characteristics of Blockchain
+
+- Ledger
+- Costantly growing
+- Permanent record of all transactions
+- Secure
+- Chronological
+- Immutable
+
+## Double Spending
+
+Double spending is one of the key problems with sending money over the Internet and why there has traditionally been a need for third parties such as banks and other institutions. Bitcoin solves this issue.
+
+## The Roles of Bitcoin Miners
+
+- Process and confirm transactions
+- Anyone can be a Bitcoin miner due to decentralization
+- Creates blocks on the Bitcoin Blochain
+- Secure the Bitcoin network
+- More Bitcoin miners, more secure the Bitcoin blockchain network because more Bitcoin miners make harder to hack the network and manipulate the stored data
