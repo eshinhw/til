@@ -63,7 +63,8 @@ Double spending is one of the key problems with sending money over the Internet 
 
 ## Hash Functions
 
-- Secure Hash Algorithm (SHA) 256 developed by National Security Agency (NSA)
+- Secure Hash Algorithm (SHA) 256 developed by National Security Agency (NSA).
+- SHA-256 is a cryptographic hash function used in Bitcoin.
 - Cryptography is a key component.
 - SHA256 allows to generate unique hash from given data
 - Hash is a one way function: there is no way of getting the data from hash
@@ -73,7 +74,29 @@ Double spending is one of the key problems with sending money over the Internet 
 
 - Miners are in the process of creating blocks
 - Nonce: Number used Once
+- Domino Effect
+- 4 leading zeros represent difficulty level.
+- New blocks are mined every 10 minutes.
 
 ## Nonce
 
-"Nonce" is a portmanteau of **"number used only once."** It is a four-byte number added to a hashed—or encrypted—block in a blockchain that, when rehashed, meets the difficulty level restrictions. The nonce is the number that blockchain miners are solving for. When the solution is found, the blockchain miner that solves it is given the block reward.
+"Nonce" is a portmanteau of **"number used only once."** It is a four-byte number added to a hashed—or encrypted—block in a blockchain that, when rehashed, meets the difficulty level restrictions. **The nonce is the number that blockchain miners are solving for. When the solution is found, the blockchain miner that solves it is given the block reward.**
+
+## Distributed Blockchain Network
+
+- Same blockchain is distributed over the network with thousands copies.
+
+## The Four Components of Bitcoin
+
+- Software (Bitcoin Client)
+  - Every 10 minutes, new cryptography challenge is created which is trying to find the nonce which will make the hash for specific block be valid 
+- Cryptography
+- Hardware
+- Gaming Theory: Games run by Bitcoin miners
+
+## Coinbase Transactions
+
+
+## Questions to Solve
+
+- Nonce, Hash, Coinbase Transactions
