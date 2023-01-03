@@ -57,3 +57,23 @@ Double spending is one of the key problems with sending money over the Internet 
 - Creates blocks on the Bitcoin Blochain
 - Secure the Bitcoin network
 - More Bitcoin miners, more secure the Bitcoin blockchain network because more Bitcoin miners make harder to hack the network and manipulate the stored data
+- Miners need specialized and powerful computers which are specifically designed for Bitcoin mining.
+- Solve cryptography math problems.
+- Miners get rewarded/paid in Bitcoin, and that's how Bitcoin is created.
+
+## Hash Functions
+
+- Secure Hash Algorithm (SHA) 256 developed by National Security Agency (NSA)
+- Cryptography is a key component.
+- SHA256 allows to generate unique hash from given data
+- Hash is a one way function: there is no way of getting the data from hash
+- On the other hand, encryption allows two ways conversion. We can convert the data into encrypted form and also retrieve data from encrypted code.
+
+## Block Hashing
+
+- Miners are in the process of creating blocks
+- Nonce: Number used Once
+
+## Nonce
+
+"Nonce" is a portmanteau of **"number used only once."** It is a four-byte number added to a hashed—or encrypted—block in a blockchain that, when rehashed, meets the difficulty level restrictions. The nonce is the number that blockchain miners are solving for. When the solution is found, the blockchain miner that solves it is given the block reward.
