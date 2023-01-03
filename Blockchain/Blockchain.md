@@ -100,9 +100,53 @@ Double spending is one of the key problems with sending money over the Internet 
 
 - Disintermediated
 - Distributed
-- Decentralized
+- Decentralized: nothing tells Bitcoin what to do.
+- Trustless: Bitcoin is Trustless. As a result, you do not need any third party to establish trust.
 
+**"Distributed Trustless Consensus"**
 
+## Cryptocurrency
+
+- Cryptocurrency is a type of digital asset which can be used to exchange value between parties.
+- It uses cryptography to secure how it's transferred and to control the creation of new unit of that currency.
+
+### Benefits of Cryptocurrency
+
+- Impossible to counterfeit
+- Decentralized cryptocurrencies are impervious to manipulation by governments (controlled supply)
+- Fast settlement
+- Can help the over 2 billion underbanked people worldwide
+- Billions of dollars in cryptocurrency exchange hands daily worldwide
+- No physical currency to transmit infection
+
+## Smart Contracts
+
+## Decentralized Autonomous Organizations (DAO)
+
+- Collection of smart contracts
+- Distributed networks on a Blockchain
+- Internet of Things (IoT)
+- Artificial Intelligence
+
+## Blockchain Real Applications
+
+1. Supply Chain Management
+2. Real Estate: Reduce risk, error and fraud
+3. Insurance
+4. Certification & Authentification
+
+## Limitations
+
+1. Early Stage
+2. Lack of Awareness
+3. Limited Available Technical Talent
+4. Immutable
+5. No Reversals or Modifications
+6. Key Management
+7. Scalability
+8. Time to Process
+ 
+## Bitcoin Cash
 ## Questions to Solve
 
 - Nonce, Hash, Coinbase Transactions
