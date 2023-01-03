@@ -96,6 +96,12 @@ Double spending is one of the key problems with sending money over the Internet 
 
 ## Coinbase Transactions
 
+## Bitcoin Transfer of Value
+
+- Disintermediated
+- Distributed
+- Decentralized
+
 
 ## Questions to Solve
 
