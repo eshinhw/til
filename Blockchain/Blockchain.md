@@ -178,6 +178,29 @@ Bitcoin Cash was born in August 1, 2017 at block #478558 by User Activated Hard 
 - Does not require upgrading to remain on the Blockchain
 - Did not cause a split in chain
 
+## Block Weight
+
+- Limited by how many transactions fit within the maximum block weight
+- Current block weight limit is 4 Million "Weight Units"
+- Block weight is measured in bytes
+- Transaction fees are set based on the number of bytes in a transaction
+- Miners try to maximize their profits by getting as many high fee transactions as they can
+- It's also possible to have a block with only one transaction, the Coinbase transaction.
+
+## Halving (50 BTC to 6.25 BTC)
+
+- The first halving took place on November 28, 2012.
+- Halving takes place every 4 years.
+
+## Important Dates
+
+- October 31, 2008: Bitcoin Whitepaper
+- January 3,  2009: The Genesis block was created
+- May 22, 2010: First Retail Purchase with Bitcoin (2 pizzas for 10000 BTC)
+- November 28, 2013: 1 BTC > 1000 USD
+- March 2, 2017: 1 BTC > 1 Oz of Gold
+- 
+
 
 ## Resources
 
