@@ -153,6 +153,32 @@ Double spending is one of the key problems with sending money over the Internet 
 - BitcoinCash.org
 - Decentralized and run by global community
 
+## Bitcoin Forks and Segregated Witness
+
+### What is Fork?
+
+A Fork takes place when a blockchain splits into two different paths forward. Hard Fork introduces a change that forces everyone to upgrade. Soft Fork introduces a change that is backwards compatible. It doesn't need upgrade. Forks on Bitcoin happen on a regular basis. Two or more miners solve a block at the same time - for a while there are extra chains. Eventually, one of the chains wins over the other. Orphan blocks are released to back to the Mempool.
+### Hard Fork: Bitcoin Cash
+
+Bitcoin Cash was born in August 1, 2017 at block #478558 by User Activated Hard Fork (UAHF)
+
+### Soft Fork: Bitcoin with SegWit
+
+- User Activated Soft Fork (UASF)
+- Locked In on August 8, 2017 at block #479707
+- Official Activation on August 24, 2017 at block #481824
+- Did not cause a split in chain
+- Replaces block size limit with block weight limit
+
+### What is Segregated Withness (SegWit)?
+
+- Protocol Upgrade
+- Improves scalability without increasing Block size
+- Addresses Transaction Malleability
+- Does not require upgrading to remain on the Blockchain
+- Did not cause a split in chain
+
+
 ## Resources
 
 - [BitcoinCash](BitcoinCash.org)
