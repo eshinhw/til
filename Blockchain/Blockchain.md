@@ -147,6 +147,18 @@ Double spending is one of the key problems with sending money over the Internet 
 8. Time to Process
  
 ## Bitcoin Cash
+
+- A new cryptocurrency developed from a "Hard Fork" in the Bitcoin Blockchain. Bitcoin Cash is NOT Bitcoin.
+- Increases block size to 8MB from the 1MB limit prior to the fork.
+- BitcoinCash.org
+- Decentralized and run by global community
+
+## Resources
+
+- [BitcoinCash](BitcoinCash.org)
+- [CoinMarketCap](coinmarketcap.com)
+- [BlockDozer](blockdozer.com)
+- [Blockchair](blockchair.com)
 ## Questions to Solve
 
 - Nonce, Hash, Coinbase Transactions
