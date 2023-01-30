@@ -19,6 +19,8 @@ let phoneNumber: number = 123456;
 let marriage: boolean = false;
 ```
 
+Test
+
 ## External Reference Links
 
 - [JavaScript Null vs. Undefined](https://codeburst.io/javascript-null-vs-undefined-20f955215a2)
