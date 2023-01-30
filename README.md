@@ -1,4 +1,4 @@
-# Complete Technology Study Notes
+# Technology Reference Book
 
 ## Table of Contents
 
