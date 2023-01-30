@@ -1,7 +1,5 @@
 # Technology Reference Book
 
-## Table of Contents
-
 - Web3 Technology
   - [Blockchain](blockchain.md)
   - [Ethereum](ethereum.md)
