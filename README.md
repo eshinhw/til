@@ -1,12 +1,12 @@
 # Technology Reference Book
 
 - Web3 Technology
-  - [Blockchain](Blockchain.md)
-  - [Ethereum](Ethereum.md)
+  - [Blockchain](blockchain.md)
+  - [Ethereum](ethereum.md)
 - Web Development
-  - [HTML](HTML.md)
-  - [CSS](CSS.md)
-  - [TypeScript](TypeScript.md)
+  - [HTML](html.md)
+  - [CSS](css.md)
+  - [TypeScript](typescript.md)
   - [React](React.md)
 
 
