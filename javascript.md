@@ -2,7 +2,7 @@
 
 ## Destructuring Expression
 
-```
+```javascript
 {x,y} = foo;
 
 x = foo.x;
@@ -23,7 +23,7 @@ const items = args.items
 
 The original array doesn't change.
 
-```
+```javascript
 const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
 const result = words.filter((word) => word.length > 6); // only select words which length is greater than 6.
@@ -34,7 +34,7 @@ console.log(result);
 
 ## Constructor
 
-```
+```javascript
 /*
 Constructor is used to create multiple objects with different values.
 Constructor is a copy machine of objects.
@@ -128,7 +128,7 @@ console.log(arr)
 
 ## Functions
 
-```
+```javascript
 function app(a, b, c) {
   console.log(arguments);
 }
