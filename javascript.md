@@ -1,5 +1,76 @@
 # JavaScript
 
+## Variables
+
+```javascript
+// =========================== Question 1 =========================== 
+
+func1();
+
+function func1() {
+  console.log(hello);
+  let hello = "Hello!";
+}
+
+// 자바스크립트에서 변수나 함수를 만들시에는 호이스팅이 되어서 함수 선언 전체를 상단으로 끌고가서 실행.
+// 함수 생성은 아무데서나 만들어도 상관이 없다.
+
+// let, const 는 호이스팅은 되지만 undefined 로 자동 할당되어지지는 않는다. (temporal deadzone/uninitialized)
+// var 로 변수 생성시에는 호이스팅도 되고 undefined 로 자동 할당까지 가능!
+
+
+// My answer: undefined
+// Correct answer: ReferenceError: Cannot access 'hello' before initialization
+
+// =========================== Question 2 =========================== 
+// var 함수;
+// 함수(); 함수 is not a function!!
+// var 함수 = function () {
+//   console.log(안녕);
+//   var 안녕 = "Hello!";
+// };
+
+// My answer: undefined
+// Correct answer: TypeError: 함수 is not a function
+
+// function func(){} 로 생성시 바디 포함 전부가 호이스팅됨. (function declaration)
+// var func = function(){} 로 생성시 var func 만 호이스팅됨. (function expression)
+
+// =========================== Question 3 =========================== 
+
+// let a = 1;
+// var 함수 = function() {
+//   a = 2;
+// }
+// console.log(a);
+
+// My answer: 1 the function is not executed
+// Correct answer: 1
+
+// =========================== Question 4 =========================== 
+
+// let a = 1;
+// var b = 2;
+// window.a = 3; 재선언, 재할당과 같다
+// window.b = 4;
+// 나랑 가까운 범위의 변수를 먼저 사용한다.
+// console.log(a + b);
+
+// My answer: 7
+// Correct: ReferenceError: window is not defined
+
+// Question 5
+
+for (let i = 1; i < 6; i++) { 
+  console.log(i)
+  setTimeout(function() { console.log(i); }, i*1000 ); 
+}
+// var ==> let
+
+// setTimeout 안의 함수는 바로 실행되는 코드가 아님.
+// i 값은 반복문이 실행되어진 후 전역변수 상태로 남아있음.
+```
+
 ## Destructuring Expression
 
 ```javascript
