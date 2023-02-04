@@ -71,6 +71,66 @@ for (let i = 1; i < 6; i++) {
 // i 값은 반복문이 실행되어진 후 전역변수 상태로 남아있음.
 ```
 
+## Spread
+
+```javascript
+let arr = ['a', 'b', 'c']
+
+console.log(arr)
+
+console.log(...arr) // remove [] and display a b c
+
+let name = 'Eddie'
+
+// 문자도 인덱싱이 가능한 Array 라고 볼 수도 있다.
+
+console.log(...name[0]) // E d d i e
+
+let a = [1,2,3]
+let b = [4,5]
+
+console.log([...a, ...b]) // spread operator can be used to merge two arrays or copy array
+
+// deep copy vs hard copy
+
+// when array is independentaly copied, we can use a spread operator.
+// when dealing with reference data types such as array and object, reference copy shouldn't be used.
+// override occurs when there is a duplicate key
+// 값 중복시 제일 뒤에 있는 값을 사용.
+
+
+// Parameters in Function
+
+function addNumbers(a,b,c) {
+  console.log(a + b + c)
+}
+
+let nums = [1,2,3]
+
+addNumbers(...nums);
+
+addNumbers.apply(undefined, nums);
+
+// apply or call functions
+
+// apply function
+
+let person = {
+  greet : function(a,b) {
+    console.log(this.name + "Hello")
+    console.log(a)
+    console.log(b)
+  }
+}
+
+let person2 = {
+  name : 'Kim'
+}
+
+person.greet.apply(person2, [1,2]) // greet function 의 parameter 가 apply 의 second parameter 자리에 들어감.
+person.greet.call(person2, 1, 2) // The diff between apply and call is how we provide function parameters.
+```
+
 ## Destructuring Expression
 
 ```javascript
