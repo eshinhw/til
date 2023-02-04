@@ -253,3 +253,25 @@ function 글자세기(word) {
 
 /\S+/ // +는 왼쪽 문자 반복검색 (글자수 상관없음)
 ```
+
+## Literals
+
+```javascript
+var pants = 20;
+var socks = 100;
+
+function 해체분석기(strings, pants, socks){
+  if (pants == 0) {
+    console.log("바지다팔렸어요", strings[1], socks)  
+  } else {
+    console.log(strings[1], pants, strings[0], socks)
+  }
+  
+}
+
+해체분석기`바지${pants}양말${socks}`
+
+pants = 0;
+
+해체분석기`바지${pants}양말${socks}`
+```
