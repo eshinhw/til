@@ -11,6 +11,12 @@
 - `appendChild`
 - `insertBefore`
 
+## use strict
+
+- Including `"use strict"` at the top of file forces to run JS file in strict mode.
+- Having `"use strict"` converts mistakes into noticeable errors.
+- secures JavaScript
+
 ## Variables
 
 ```javascript
