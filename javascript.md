@@ -225,3 +225,31 @@ function 글자세기(word) {
 
 글자세기('aacbbb')
 ```
+
+## Regular Expressions
+
+```javascript
+/a/.test('abcde') // checks whether a is in abcde
+
+/[a-z]/.test('abcde') // a부터 z까지 영어 소문자 중 아무 글자 하나를 뜻함.
+
+/[A-Z]/.test('abcde') // 대문자 A부터 Z까지 아무 글자 1개.
+
+/[a-zA-z]/.test('abcde') // 소문자, 대문자 상관없이 아무 알파벳 1개.
+
+/[0-9]/ // 숫자 0~9까지 아무 숫자 1개.
+
+/\S/ // 아무 문자 하나. (특수기호 포함.)
+
+/^a/ // a로 시작하나?
+
+/a$/ // a로 끝나나?
+
+/a|b/ // a or b
+
+/a&b/ // a and b
+
+정규식에서 .은 특수한 문법으로 쓰임. . 을 쓰고 싶은 경우 \. 사용. (백슬래시)
+
+/\S+/ // +는 왼쪽 문자 반복검색 (글자수 상관없음)
+```
