@@ -406,3 +406,11 @@ pants = 0;
 
 해체분석기`바지${pants}양말${socks}`
 ```
+
+## How to Make UI Components
+- Create UI components in advance with HTML/CSS
+- Use JS to modify display setting.
+    - Directly update `display: none` to `display: block`
+    - Add and remove a display class into HTML elements to manage visibility
+    - `toggle` can be used to show/hide elements
+    - `visibility` can also be used.
