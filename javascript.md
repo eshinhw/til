@@ -1,5 +1,16 @@
 # JavaScript
 
+- `getElementById`
+- `innerHTML`
+- `textContent`
+- `setAttribute`
+- `getAttribute`
+- `element.style.left = "20px";`
+- `element.style.backgroundColor = "red";` make sure JS uses camel case for decorations.
+- `createElement`
+- `appendChild`
+- `insertBefore`
+
 ## Variables
 
 ```javascript
