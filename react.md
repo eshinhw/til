@@ -1,8 +1,11 @@
 # React.js
 
+## How to initialize React Project
+
+`npx create-react-app dirName` : create a new react app project in `dirName`
+
 ## Basics of React.js
 
-- `npx create-react-app dirName` : create a new react app project in `dirName`
 - `App.js` 에서 짜여진 JSX 코드들을 `index.js` 가 `index.html` 로 집어넣어주는 관계.
 
 - JSX Syntax
@@ -14,7 +17,7 @@
 - Disable YELLOW Warnings!
     - place `/* eslint-disable */` at the top of the file
 
-## useState
+## What is `useState`?
 
 - `useState` 로 변수 선언시 값이 변할때마다 자동으로 업데이트 되어짐.
 - 자주 바뀌어야하는 변수들은 `useState` 로 선언하면 됨.
@@ -30,7 +33,7 @@
 2. include html codes in return()
 3. <funcName />
 
-## () vs {}
+## What is the difference between `()` and `{}`
 
 The following two statements are identical. For single statements, `return` isn't needed. However, We need `return` keyword if we use curly braces.
 
@@ -39,11 +42,11 @@ blogs.map(blog => (<h1> {b.title}))
 blogs.map(blog => {return (<h1> {b.title})})
 ```
 
-## Props
+## What are Props in React?
 
 Inside `Home.js`, we have the following.
 
-```
+```javascript
 const Home = () => {
   const [blogs, setBlogs] = useState([
     { title: "My new website", body: "body1", author: "mario", id: 1 },
@@ -70,7 +73,7 @@ export default Home;
 
 Inside `BlogList.js`, we have the following.
 
-```
+```javascript
 // We have to access props provided in Home.js as input parameters.
 // There are two ways of accessing props.
 // 1) const BlogList = (props) => {} Then props.blogs, props.title and props.handleDelete
@@ -94,7 +97,7 @@ const BlogList = (props) => {
 export default BlogList;
 ```
 
-## useEffect
+## What is `useEffect`?
 
 `useEffect` runs a function every render of the component.
 
@@ -112,7 +115,7 @@ useEffect(() => {
 }, [name]); // Dependencies in useEffect => only runs when name var is changed.
 ```
 
-## Conditional Syntax
+## How to apply Conditional Syntax in React?
 
 If logic is true, A is executed. Otherwise, B is executed.
 
