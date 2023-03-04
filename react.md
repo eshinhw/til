@@ -119,7 +119,7 @@ useEffect(() => {
 
 If logic is true, A is executed. Otherwise, B is executed.
 
-```
+```javascript
 {logic ? (A) : (B)}
 ```
 
