@@ -2,7 +2,7 @@
 
 CSS works alongside with HTML, and are used to style web pages to make them look better by changing colours, position, effects, font sizes etc.
 
-## CSS Decorations
+## Some Decorations in CSS
 
 - `color`
 - `background-color`
@@ -16,9 +16,9 @@ CSS works alongside with HTML, and are used to style web pages to make them look
 - `border-width`
 - `border-style`
 
-## CSS Classes and Selectors
+## Classes and Selectors
 
-```
+```css
 <p class="intro"> Hello World! </p>
 <div class="first"> First Div </div>
 <p id="uniqueID"> Paragraph for UniqueID </p>
@@ -28,7 +28,7 @@ CSS works alongside with HTML, and are used to style web pages to make them look
 
 We can modify the contents of HTML tags using CSS decorations.
 
-```
+```css
 p {
     /* decorations for all <p> tags */
 }
@@ -64,7 +64,7 @@ div .error {
 
 ## Attribute Selectors
 
-```
+```css
 a[href] {
     /* decorations for all <a> tags which have href attribute */
 }
@@ -86,11 +86,11 @@ a[href$=".com"] {
 
 CSS runs from the top to the bottom. However, selectors with more specific selections can't be overriden.
 
-```
+```html
 <div><p>Hello World!</p></div>
 ```
 
-```
+```css
 div {
     color: red;
     border: 1px solid grey;
