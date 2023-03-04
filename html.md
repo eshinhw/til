@@ -47,7 +47,7 @@ HTML is used to structure content on a web page (images, text, forms etc). We us
 - `placeholder`: is like a `hint` in Android
 - `<select> + <option>`
 
-```
+```html
 <label for="">Security Question:</label>
     <select name="question" id="question">
         <option value="q1">What colour are your favorite pair of socks?</option>
