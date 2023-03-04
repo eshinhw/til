@@ -1,6 +1,6 @@
 # Today I Learned
 
-What did I learn today...? 👍
+What did I learn today? 👍
 
 ## Web Programming
 
