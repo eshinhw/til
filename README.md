@@ -1,5 +1,7 @@
 # Today I Learned
 
+What did I learn today...? 👍
+
 ## Web Programming
 
 - [HTML](html.md)
