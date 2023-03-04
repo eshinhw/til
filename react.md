@@ -1,6 +1,6 @@
 # React.js
 
-## Basics of React JS
+## Basics of React.js
 
 - `npx create-react-app dirName` : create a new react app project in `dirName`
 - `App.js` 에서 짜여진 JSX 코드들을 `index.js` 가 `index.html` 로 집어넣어주는 관계.
@@ -111,3 +111,17 @@ useEffect(() => {
   console.log(name);
 }, [name]); // Dependencies in useEffect => only runs when name var is changed.
 ```
+
+## Conditional Syntax
+
+If logic is true, A is executed. Otherwise, B is executed.
+
+```
+{logic ? (A) : (B)}
+```
+
+ 
+
+
+
+
