@@ -23,7 +23,7 @@ HTML is used to structure content on a web page (images, text, forms etc). We us
 
 ## HTML Forms
 
-```
+```html
 <form action="">
     <label for="username">enter username: </label>
     <input type="text" id="username">
