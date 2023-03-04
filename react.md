@@ -1,4 +1,4 @@
-# React JS
+# React.js
 
 ## Basics of React JS
 
