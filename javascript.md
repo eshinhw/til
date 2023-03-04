@@ -1,21 +1,10 @@
 # JavaScript
 
-- `getElementById`
-- `innerHTML`
-- `textContent`
-- `setAttribute`
-- `getAttribute`
-- `element.style.left = "20px";`
-- `element.style.backgroundColor = "red";` make sure JS uses camel case for decorations.
-- `createElement`
-- `appendChild`
-- `insertBefore`
-
-## use strict
+## What is `use strict`?
 
 - Including `"use strict"` at the top of file forces to run JS file in strict mode.
 - Having `"use strict"` converts mistakes into noticeable errors.
-- secures JavaScript
+- Use `use strict` to make JS codes more secure
 
 ## Variables
 
@@ -88,7 +77,7 @@ for (let i = 1; i < 6; i++) {
 // i 값은 반복문이 실행되어진 후 전역변수 상태로 남아있음.
 ```
 
-## Spread
+## What is a Spread Operator?
 
 ```javascript
 let arr = ['a', 'b', 'c']
@@ -148,7 +137,7 @@ person.greet.apply(person2, [1,2]) // greet function 의 parameter 가 apply 의
 person.greet.call(person2, 1, 2) // The diff between apply and call is how we provide function parameters.
 ```
 
-## Destructuring Expression
+## What is Destructuring Expression?
 
 ```javascript
 {x,y} = foo;
@@ -167,7 +156,7 @@ const { items } = args
 const items = args.items
 ```
 
-## Array Filter Method
+## What is Filter Method in Array?
 
 The original array doesn't change.
 
@@ -180,7 +169,7 @@ console.log(result);
 // expected output: Array ["exuberant", "destruction", "present"]
 ```
 
-## Constructor
+## What is a Constructor?
 
 ```javascript
 /*
@@ -274,7 +263,7 @@ arr.remove3();
 console.log(arr)
 ```
 
-## Functions
+## What are Functions?
 
 ```javascript
 function app(a, b, c) {
@@ -425,6 +414,7 @@ pants = 0;
 ```
 
 ## How to Make UI Components
+
 - Create UI components in advance with HTML/CSS
 - Use JS to modify display setting.
     - Directly update `display: none` to `display: block`
