@@ -119,8 +119,3 @@ We need to apply `text-decoration: none` on `a` tag instead of `p` or `span`.
     text-decoration: none
 }
 ```
-
-
-
-```
-
