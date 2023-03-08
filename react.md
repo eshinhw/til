@@ -123,7 +123,7 @@ If logic is true, A is executed. Otherwise, B is executed.
 {logic ? (A) : (B)}
 ```
 
- 
+## `useContext` with `useReducer` for Global State Management 
 
 
 
