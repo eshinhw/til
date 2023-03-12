@@ -421,3 +421,29 @@ pants = 0;
     - Add and remove a display class into HTML elements to manage visibility
     - `toggle` can be used to show/hide elements
     - `visibility` can also be used.
+
+## setTimeout(function(){}, ms)
+
+- Execute the codes after certain time in ms
+- 1000ms = 1s
+
+## setInterval(function(){}, ms)
+
+- Execute the function every certain time in ms
+
+## `this` Keyword
+
+1. window: 자바스크립트 기본 함수들의 수납 공간
+2. 오브젝트 안의 this는 나를 포함하고 있는 오브젝트를 뜻함.
+3. Arrow Function 안에서의 this 는 함수 밖의 있는 것을 그대로 쓴다.
+4. window 는 전역 object.
+5. this = e.currentTarget inside addEventListener
+
+## `var` vs `let` vs `const`
+
+- var: 재선언, 재할당 가능, 범위는 function
+- let: 재선언 불가능, 재할당 가능, 모든 중괄호가 범위
+- const: 재선언 불가능, 재할당 불가능, 모든 중괄호가 범위
+
+## `window.onload` vs `window.addEventListener`
+
