@@ -2,13 +2,17 @@
 
 What did I learn today? 👍
 
-## Web Programming
+## Web Development
 
 - [HTML](html.md)
 - [CSS](css.md)
 - [JavaScript](javascript.md)
 - [TypeScript](typescript.md)
 - [React](react.md)
+
+## Mobile Development
+
+- [Kotlin](kotlin.md)
 
 ## Blockchain & Ethereum
 
